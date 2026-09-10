@@ -1,0 +1,751 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "urn:tehran-cinema-atlas:film:film_banoo_1991",
+      "@type": "Movie",
+      "name": "Banoo",
+      "alternateName": [
+        "بانو",
+        "Banoo"
+      ],
+      "dateCreated": "1991",
+      "director": {
+        "@type": "Person",
+        "name": "Dariush Mehrjui"
+      },
+      "description": "A psychological and social drama about a lonely woman who stays in a large old house after her husband leaves her. The house becomes the emotional and symbolic center of the film.",
+      "image": "assets/images/films/banoo/poster.jpg"
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:film:film_tehran_roozegare_no",
+      "@type": "Movie",
+      "name": "Tehran Roozegare No",
+      "alternateName": [
+        "تهران روزگار نو",
+        "Once Upon a Time in Tehran",
+        "Tehran Roozegare No"
+      ],
+      "dateCreated": "1999",
+      "director": {
+        "@type": "Person",
+        "name": "Ali Hatami"
+      },
+      "description": "A historical film connected to the visual world of old Tehran, showing the city through reconstructed urban spaces, period costumes, old vehicles, and nostalgic city scenes.",
+      "image": "assets/images/films/tehran-roozegare-no/poster.jpg"
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:film:film_shabhaye_roshan",
+      "@type": "Movie",
+      "name": "White Nights",
+      "alternateName": [
+        "شب‌های روشن",
+        "Shabhaye Roshan",
+        "White Nights"
+      ],
+      "dateCreated": "2003",
+      "director": {
+        "@type": "Person",
+        "name": "Farzad Motamen"
+      },
+      "description": "A romantic and literary Iranian film set in Tehran, following the emotional and intellectual connection between two lonely characters.",
+      "image": "assets/images/films/shabhaye-roshan/poster.jpg"
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:film:film_shatranj_baad",
+      "@type": "Movie",
+      "name": "Chess of the Wind",
+      "alternateName": [
+        "شطرنج باد",
+        "Chess of the Wind"
+      ],
+      "dateCreated": "1976",
+      "director": {
+        "@type": "Person",
+        "name": "محمدرضا اصلانی"
+      },
+      "description": "A stylized Iranian period drama centered on inheritance, power, decay, and tension inside an aristocratic house.",
+      "image": "assets/images/films/shatranj-baad/poster.jpg"
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:film:film_closeup",
+      "@type": "Movie",
+      "name": "Close-Up",
+      "alternateName": [
+        "کلوزآپ",
+        "Close-Up"
+      ],
+      "dateCreated": "1990",
+      "director": {
+        "@type": "Person",
+        "name": "Abbas Kiarostami"
+      },
+      "description": "A semi-documentary Iranian film about identity, cinema, and reality, based on the real story of a man who pretended to be filmmaker Mohsen Makhmalbaf.",
+      "image": "assets/images/films/closeup/poster.jpg"
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:film:film_kamalolmolk",
+      "@type": "Movie",
+      "name": "Kamalolmolk",
+      "alternateName": [
+        "کمال‌الملک",
+        "Kamalolmolk"
+      ],
+      "dateCreated": "1984",
+      "director": {
+        "@type": "Person",
+        "name": "Ali Hatami"
+      },
+      "description": "A historical biographical drama about the life of Iranian painter Kamal-ol-Molk and his relationship with the Qajar court, art, power, and political change.",
+      "image": "assets/images/films/kamalolmolk_poster.jpg"
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:film:film_nasereddin_shah_actor_cinema",
+      "@type": "Movie",
+      "name": "Once Upon a Time, Cinema",
+      "alternateName": [
+        "ناصرالدین‌شاه آکتور سینما",
+        "Once Upon a Time, Cinema"
+      ],
+      "dateCreated": "1992",
+      "director": {
+        "@type": "Person",
+        "name": "Mohsen Makhmalbaf"
+      },
+      "description": "A historical and satirical Iranian film in which Nasereddin Shah encounters cinema and becomes fascinated by the world of moving images.",
+      "image": "assets/images/films/nasereddin-shah-actor-cinema-poster.jpg"
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:film:film_daeejan_napoleon",
+      "@type": "Movie",
+      "name": "My Uncle Napoleon",
+      "alternateName": [
+        "دایی‌جان ناپلئون",
+        "My Uncle Napoleon"
+      ],
+      "dateCreated": "1976",
+      "director": {
+        "@type": "Person",
+        "name": "Nasser Taghvai"
+      },
+      "description": "A classic Iranian television series based on Iraj Pezeshkzad's novel, centered on a large family household, satire, memory, and social relations in old Tehran.",
+      "image": "assets/images/films/daeejan-napoleon-poster.jpg"
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:film:film_asabani_nistam",
+      "@type": "Movie",
+      "name": "I'm Not Angry!",
+      "alternateName": [
+        "عصبانی نیستم!",
+        "I'm Not Angry!"
+      ],
+      "dateCreated": "2014",
+      "director": {
+        "@type": "Person",
+        "name": "Reza Dormishian"
+      },
+      "description": "A contemporary Iranian drama about Navid, a starred and expelled university student, who struggles with social pressure, anger, love, and survival in Tehran.",
+      "image": "assets/images/films/asabani-nistam-poster.jpg"
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_banoo_music_museum_tehran",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Cyrus Samrad Mansion / Iran Music Museum",
+      "alternateName": "عمارت سیروس سمراد / موزه موسیقی ایران",
+      "address": "Tehran, Tajrish Square, Shahid Ebrahim Darbandi Street, Museum Street, Niloofar Alley, No. 9",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.8119,
+        "longitude": 51.4259
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_banoo_1991"
+      },
+      "description": "The house appears as Banoo’s private mansion. The courtyard, stairs, garden, and old architectural atmosphere create a sense of loneliness, wealth, privacy, and emotional pressure.",
+      "image": [
+        "assets/images/locations/banoo/film_still_01.jpg",
+        "assets/images/locations/banoo/current_01.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Northern Afterimages"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_tehran_roozegare_no_toopkhaneh_square",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Toopkhaneh Square, Tehran",
+      "alternateName": "میدان توپخانه تهران",
+      "address": "میدان امام خمینی فعلی، مرکز تهران، ایران",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.6869,
+        "longitude": 51.4211
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_tehran_roozegare_no"
+      },
+      "description": "In this scene, the film recreates old Tehran through a view of Toopkhaneh Square, with horse carriages, old cars, pedestrians, and the façade of the old Tehran Municipality building. The square works as a symbol of public life, administration, and urban memory in historical Tehran.",
+      "image": [
+        "assets/images/locations/tehran_roozegare_no/toopkhaneh_square_film_still.jpg",
+        "assets/images/locations/tehran_roozegare_no/toopkhaneh_square_today.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Approximate Area"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Lalehzar & Toopkhaneh"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_tehran_roozegare_no_grand_hotel_lalehzar",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Grand Hotel Tehran",
+      "alternateName": "گرند هتل تهران",
+      "address": "Tehran Province, Tehran, Lalehzar Jonubi Street, Barbod Alley, MCOC+WXM, Iran",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.6898368,
+        "longitude": 51.4224124
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_tehran_roozegare_no"
+      },
+      "description": "In this scene from Tehran Roozegare No, the Grand Hotel appears as part of the reconstructed memory of old Tehran. The hotel façade, classical entrance, and historical atmosphere connect the film to Lalehzar’s cultural past.",
+      "image": [
+        "assets/images/locations/tehran-roozegare-no/grand-hotel-lalehzar-film.jpg",
+        "assets/images/locations/tehran-roozegare-no/grand-hotel-lalehzar-current.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Lalehzar & Toopkhaneh"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_shabhaye_roshan_ferdowsi_square",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Ferdowsi Square, Tehran",
+      "alternateName": "میدان فردوسی تهران",
+      "address": "Ferdowsi Square, Ferdowsi Street and Enghelab Street area, Tehran, Iran",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.7019,
+        "longitude": 51.419
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_shabhaye_roshan"
+      },
+      "description": "This location appears as an important urban and symbolic space in Tehran. The presence of Ferdowsi's statue connects the scene to Persian literature, memory, and the cultural identity of the city.",
+      "image": [
+        "assets/images/locations/shabhaye-roshan/ferdowsi-square-film.jpg",
+        "assets/images/locations/shabhaye-roshan/ferdowsi-square-current.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Revolution Avenue & Ferdowsi"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_shabhaye_roshan_cinema_theater_faculty",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Cinema and Theater Faculty of Tehran Art University",
+      "alternateName": "دانشکده سینما و تئاتر دانشگاه هنر تهران",
+      "address": "PC5H+MCJ, District 7, Tehran, Tehran Province, Iran",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.7092036,
+        "longitude": 51.4285301
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_shabhaye_roshan"
+      },
+      "description": "In this scene from Shabhaye Roshan, the university building appears as an important urban-cultural space. The location supports the intellectual and literary mood of the film and connects the characters to Tehran’s academic atmosphere.",
+      "image": [
+        "assets/images/locations/shabhaye-roshan/cinema-theater-faculty-film.jpg",
+        "assets/images/locations/shabhaye-roshan/cinema-theater-faculty-current.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Revolution Avenue & Ferdowsi"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_shabhaye_roshan_ferdowsi_grand_hotel",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Ferdowsi Grand Hotel Tehran",
+      "alternateName": "هتل بزرگ فردوسی تهران",
+      "address": "Tehran Province, Tehran, Kooshk-e Mesri Street, Beginning of Ferdowsi Avenue, near Imam Khomeini Square",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.6882733,
+        "longitude": 51.4196485
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_shabhaye_roshan"
+      },
+      "description": "In this scene from Shabhaye Roshan, the characters are shown near the entrance of Ferdowsi Grand Hotel. The night lighting, hotel sign, and urban surroundings create a real Tehran atmosphere.",
+      "image": [
+        "assets/images/locations/shabhaye-roshan/ferdowsi-grand-hotel-film.jpg",
+        "assets/images/locations/shabhaye-roshan/ferdowsi-grand-hotel-current.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Exact Angle"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Lalehzar & Toopkhaneh"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_shatranj_baad_moshir_od_dowleh_mansion",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Moshir od-Dowleh Mansion (Pirnia House)",
+      "alternateName": "عمارت مشیرالدوله (خانه پیرنیا)",
+      "address": "تهران، خیابان منوچهری، بین لاله‌زار و فردوسی، خیابان پیرنیا، عمارت مشیرالدوله",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.688,
+        "longitude": 51.4206
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_shatranj_baad"
+      },
+      "description": "In this scene from Shatranj-e Baad, the characters appear in the courtyard of a historical mansion. The architectural background, decorated entrance, brick walls, and enclosed domestic space reinforce the film’s aristocratic, tense, and period atmosphere.",
+      "image": [
+        "assets/images/locations/shatranj-baad/moshir-od-dowleh-filmstill.jpg",
+        "assets/images/locations/shatranj-baad/moshir-od-dowleh-current.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Lalehzar & Toopkhaneh"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_closeup_police_164_qaem",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Police Station 164 Qaem",
+      "alternateName": "کلانتری ۱۶۴ قائم",
+      "address": "تهران، منطقه ۱، بزرگراه ارتش، ابتدای شهرک قائم، محدوده مینی‌سیتی",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.8029,
+        "longitude": 51.5009
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_closeup"
+      },
+      "description": "In this scene from Close-Up, the sign of the Azgol Gendarmerie Station appears. For the current visitor-facing version of the project, the location is linked to Police Station 164 Qaem in the Mini City / Shahrak-e Qaem area.",
+      "image": [
+        "assets/images/locations/closeup/azgol-gendarmerie-filmstill.jpg",
+        "assets/images/locations/closeup/police-164-qaem-current.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Northern Afterimages"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_kamalolmolk_mirror_hall_golestan",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Mirror Hall, Golestan Palace",
+      "alternateName": "تالار آینه، کاخ گلستان",
+      "address": "Mirror Hall, Golestan Palace, Panzdah-e Khordad Square, Arg district, Tehran, Iran",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.6803413,
+        "longitude": 51.4205793
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_kamalolmolk"
+      },
+      "description": "In this scene from Kamalolmolk, the royal interior represents the Qajar court environment. The Mirror Hall visually connects the painter Kamal-ol-Molk with the world of royal power, ceremony, and artistic prestige.",
+      "image": [
+        "assets/images/locations/kamalolmolk/mirror_hall_still_01.jpg",
+        "assets/images/locations/kamalolmolk/mirror_hall_current_01.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Golestan Palace: Court & Spectacle"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_kamalolmolk_shamsol_emareh_golestan",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Shams-ol-Emareh, Golestan Palace",
+      "alternateName": "عمارت شمس‌العماره، کاخ گلستان",
+      "address": "Shams-ol-Emareh, Golestan Palace, Panzdah-e Khordad Square, Arg district, Tehran, Iran",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.67972,
+        "longitude": 51.42028
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_kamalolmolk"
+      },
+      "description": "In this scene from Kamalolmolk, the exterior of Shams-ol-Emareh represents the Qajar royal environment. The decorated facade, arches, and palace architecture visually connect the film to the world of monarchy, court culture, and historical Tehran.",
+      "image": [
+        "assets/images/locations/kamalolmolk/shamsol_emareh_still_01.jpg",
+        "assets/images/locations/kamalolmolk/shamsol_emareh_current_01.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Golestan Palace: Court & Spectacle"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_kamalolmolk_emarat_badgir",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Emarat-e Badgir (Windcatcher Mansion), Golestan Palace",
+      "alternateName": "عمارت بادگیر، کاخ گلستان",
+      "address": "کاخ گلستان، خیابان پانزده خرداد، محدوده ارگ، تهران، ایران",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.6799,
+        "longitude": 51.4207
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_kamalolmolk"
+      },
+      "description": "In this scene from Kamalolmolk, the building appears as a formal Qajar palace courtyard with a decorated facade, fountain, and carriage, reinforcing the historical royal atmosphere of the film.",
+      "image": [
+        "assets/images/locations/kamalolmolk/emarat_badgir_still_01.jpg",
+        "assets/images/locations/kamalolmolk/emarat_badgir_current_01.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Golestan Palace: Court & Spectacle"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_nasereddin_shah_mirror_hall_golestan",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Mirror Hall, Golestan Palace",
+      "alternateName": "تالار آینه، کاخ گلستان",
+      "address": "کاخ گلستان، خیابان پانزده خرداد، محدوده ارگ تهران، تهران، ایران",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.6803413,
+        "longitude": 51.4205793
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_nasereddin_shah_actor_cinema"
+      },
+      "description": "In this scene from Nasereddin Shah Actor-e Cinema, the Mirror Hall represents the royal and theatrical world of the Qajar court. The grand chandeliers, decorated arches, and palace interior visually connect the character of Nasereddin Shah with monarchy, spectacle, and the early imagination of cinema.",
+      "image": [
+        "assets/images/locations/nasereddin-shah/mirror-hall-still-01.jpg",
+        "assets/images/locations/nasereddin-shah/mirror-hall-current-01.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Golestan Palace: Court & Spectacle"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_nasereddin_shah_khalvat_karimkhani",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Khalvat-e Karimkhani, Golestan Palace",
+      "alternateName": "خلوت کریمخانی، کاخ گلستان",
+      "address": "کاخ گلستان، خیابان پانزده خرداد، محدوده ارگ تهران، تهران، ایران",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.6802537,
+        "longitude": 51.4199001
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_nasereddin_shah_actor_cinema"
+      },
+      "description": "In this scene from Nasereddin Shah Actor-e Cinema, the characters appear beside an ornate royal funerary or memorial setting framed by dense Qajar tile decoration and an arched architectural backdrop. The visual atmosphere supports the film’s connection to royal history, memory, and ceremonial space.",
+      "image": [
+        "assets/images/locations/nasereddin-shah/khalvat-karimkhani-still-01.jpg",
+        "assets/images/locations/nasereddin-shah/khalvat-karimkhani-current-01.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Golestan Palace: Court & Spectacle"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_daeejan_napoleon_ettehadieh_house",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "Ettehadieh House / Amin-ol-Soltan House",
+      "alternateName": "خانه باغ اتحادیه / خانه امین‌السلطان",
+      "address": "تهران، خیابان لاله‌زار، انتهای کوچه اتحادیه",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.690988,
+        "longitude": 51.42185
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_daeejan_napoleon"
+      },
+      "description": "In this scene from Daee Jan Napoleon, the house garden appears as a nostalgic domestic space with trees, balconies, garden paths, and a Qajar-style residence. The setting supports the family-centered and ironic atmosphere of the series.",
+      "image": [
+        "assets/images/locations/daeejan-napoleon/ettehadieh-house-still-01.jpg",
+        "assets/images/locations/daeejan-napoleon/ettehadieh-house-current-01.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Lalehzar & Toopkhaneh"
+        }
+      ]
+    },
+    {
+      "@id": "urn:tehran-cinema-atlas:location:loc_asabani_nistam_university_of_tehran_gate",
+      "@type": [
+        "Place",
+        "TouristAttraction"
+      ],
+      "name": "University of Tehran Main Entrance Gate",
+      "alternateName": "سردر اصلی دانشگاه تهران",
+      "address": "تهران، خیابان انقلاب اسلامی، پردیس مرکزی دانشگاه تهران، سردر اصلی دانشگاه تهران",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.700833,
+        "longitude": 51.395833
+      },
+      "subjectOf": {
+        "@id": "urn:tehran-cinema-atlas:film:film_asabani_nistam"
+      },
+      "description": "In this scene from I'm Not Angry!, the University of Tehran gate visually connects the character's story to student life, exclusion, social pressure, and the political atmosphere surrounding university spaces in Tehran.",
+      "image": [
+        "assets/images/locations/asabani-nistam/university-of-tehran-gate-still-01.jpg",
+        "assets/images/locations/asabani-nistam/university-of-tehran-gate-current-01.jpg"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Identification status",
+          "value": "Verified Location"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Camera orientation",
+          "value": "Field verification required — the supplied research does not state a reliable compass bearing."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Route chapter",
+          "value": "Revolution Avenue & Ferdowsi"
+        }
+      ]
+    }
+  ]
+}

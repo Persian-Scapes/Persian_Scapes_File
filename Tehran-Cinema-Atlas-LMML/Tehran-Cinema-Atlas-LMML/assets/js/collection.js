@@ -1,0 +1,12 @@
+(function(){
+ const D=window.ATLAS_DATA,L=D.locations,grid=document.querySelector('#collectionGrid'),empty=document.querySelector('#collectionEmpty'),count=document.querySelector('#collectionCount');
+ const search=document.querySelector('#search'),film=document.querySelector('#filmFilter'),decade=document.querySelector('#decadeFilter'),lens=document.querySelector('#lensFilter'),match=document.querySelector('#matchFilter');
+ const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+ D.films.slice().sort((a,b)=>a.year-b.year).forEach(x=>film.insertAdjacentHTML('beforeend',`<option value="${x.id}">${esc(x.title)} (${x.year})</option>`));
+ [...new Set(L.map(x=>Math.floor(x.year/10)*10))].sort().forEach(x=>decade.insertAdjacentHTML('beforeend',`<option value="${x}">${x}s</option>`));
+ D.narratives.lens.chapters.forEach(x=>lens.insertAdjacentHTML('beforeend',`<option value="${esc(x)}">${esc(x)}</option>`));
+ [...new Set(L.map(x=>x.matchLevel))].sort().forEach(x=>match.insertAdjacentHTML('beforeend',`<option value="${esc(x)}">${esc(x)}</option>`));
+ function card(x){return `<a class="collection-card" href="location.html?id=${encodeURIComponent(x.id)}"><img src="${x.realLocationImage}" alt="Present-day reference for ${esc(x.title)}"><p class="eyebrow">Stop ${String(x.routeOrder).padStart(2,'0')} · ${esc(x.routeChapter)}</p><h2>${esc(x.title)}</h2><p class="persian-card-title" lang="fa" dir="rtl">${esc(x.titleFa)}</p><p>${esc(x.short)}</p><div>${x.tags.slice(0,2).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><div class="card-meta"><span>${esc(x.anchorWork)}</span><span>${x.year}</span></div></a>`;}
+ function render(){const q=search.value.trim().toLowerCase();const filtered=L.filter(x=>(!q||[x.title,x.titleFa,x.anchorWork,x.area,x.address,...x.tags].join(' ').toLowerCase().includes(q))&&(film.value==='all'||x.filmId===film.value)&&(decade.value==='all'||Math.floor(x.year/10)*10===Number(decade.value))&&(lens.value==='all'||x.cityLens===lens.value)&&(match.value==='all'||x.matchLevel===match.value));grid.innerHTML=filtered.map(card).join('');count.textContent=`Showing ${filtered.length} of ${L.length} locations`;empty.hidden=filtered.length>0;}
+ [search,film,decade,lens,match].forEach(el=>el.addEventListener(el===search?'input':'change',render));document.querySelector('#resetFilters').addEventListener('click',()=>{search.value='';film.value=decade.value=lens.value=match.value='all';render();});render();
+})();

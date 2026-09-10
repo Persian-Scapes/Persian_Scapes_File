@@ -1,0 +1,377 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4259,
+          35.8119
+        ]
+      },
+      "properties": {
+        "id": "loc_banoo_music_museum_tehran",
+        "name": "Cyrus Samrad Mansion / Iran Music Museum",
+        "name_fa": "عمارت سیروس سمراد / موزه موسیقی ایران",
+        "film": "Banoo",
+        "year": 1991,
+        "route_order": 14,
+        "chapter": "Northern Afterimages",
+        "url": "location.html?id=loc_banoo_music_museum_tehran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4211,
+          35.6869
+        ]
+      },
+      "properties": {
+        "id": "loc_tehran_roozegare_no_toopkhaneh_square",
+        "name": "Toopkhaneh Square, Tehran",
+        "name_fa": "میدان توپخانه تهران",
+        "film": "Tehran Roozegare No",
+        "year": 1999,
+        "route_order": 8,
+        "chapter": "Lalehzar & Toopkhaneh",
+        "url": "location.html?id=loc_tehran_roozegare_no_toopkhaneh_square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4224124,
+          35.6898368
+        ]
+      },
+      "properties": {
+        "id": "loc_tehran_roozegare_no_grand_hotel_lalehzar",
+        "name": "Grand Hotel Tehran",
+        "name_fa": "گرند هتل تهران",
+        "film": "Tehran Roozegare No",
+        "year": 1999,
+        "route_order": 4,
+        "chapter": "Lalehzar & Toopkhaneh",
+        "url": "location.html?id=loc_tehran_roozegare_no_grand_hotel_lalehzar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.419,
+          35.7019
+        ]
+      },
+      "properties": {
+        "id": "loc_shabhaye_roshan_ferdowsi_square",
+        "name": "Ferdowsi Square, Tehran",
+        "name_fa": "میدان فردوسی تهران",
+        "film": "White Nights",
+        "year": 2003,
+        "route_order": 2,
+        "chapter": "Revolution Avenue & Ferdowsi",
+        "url": "location.html?id=loc_shabhaye_roshan_ferdowsi_square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4285301,
+          35.7092036
+        ]
+      },
+      "properties": {
+        "id": "loc_shabhaye_roshan_cinema_theater_faculty",
+        "name": "Cinema and Theater Faculty of Tehran Art University",
+        "name_fa": "دانشکده سینما و تئاتر دانشگاه هنر تهران",
+        "film": "White Nights",
+        "year": 2003,
+        "route_order": 3,
+        "chapter": "Revolution Avenue & Ferdowsi",
+        "url": "location.html?id=loc_shabhaye_roshan_cinema_theater_faculty"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4196485,
+          35.6882733
+        ]
+      },
+      "properties": {
+        "id": "loc_shabhaye_roshan_ferdowsi_grand_hotel",
+        "name": "Ferdowsi Grand Hotel Tehran",
+        "name_fa": "هتل بزرگ فردوسی تهران",
+        "film": "White Nights",
+        "year": 2003,
+        "route_order": 7,
+        "chapter": "Lalehzar & Toopkhaneh",
+        "url": "location.html?id=loc_shabhaye_roshan_ferdowsi_grand_hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4206,
+          35.688
+        ]
+      },
+      "properties": {
+        "id": "loc_shatranj_baad_moshir_od_dowleh_mansion",
+        "name": "Moshir od-Dowleh Mansion (Pirnia House)",
+        "name_fa": "عمارت مشیرالدوله (خانه پیرنیا)",
+        "film": "Chess of the Wind",
+        "year": 1976,
+        "route_order": 6,
+        "chapter": "Lalehzar & Toopkhaneh",
+        "url": "location.html?id=loc_shatranj_baad_moshir_od_dowleh_mansion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5009,
+          35.8029
+        ]
+      },
+      "properties": {
+        "id": "loc_closeup_police_164_qaem",
+        "name": "Police Station 164 Qaem",
+        "name_fa": "کلانتری ۱۶۴ قائم",
+        "film": "Close-Up",
+        "year": 1990,
+        "route_order": 15,
+        "chapter": "Northern Afterimages",
+        "url": "location.html?id=loc_closeup_police_164_qaem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4205793,
+          35.6803413
+        ]
+      },
+      "properties": {
+        "id": "loc_kamalolmolk_mirror_hall_golestan",
+        "name": "Mirror Hall, Golestan Palace",
+        "name_fa": "تالار آینه، کاخ گلستان",
+        "film": "Kamalolmolk",
+        "year": 1984,
+        "route_order": 11,
+        "chapter": "Golestan Palace: Court & Spectacle",
+        "url": "location.html?id=loc_kamalolmolk_mirror_hall_golestan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.42028,
+          35.67972
+        ]
+      },
+      "properties": {
+        "id": "loc_kamalolmolk_shamsol_emareh_golestan",
+        "name": "Shams-ol-Emareh, Golestan Palace",
+        "name_fa": "عمارت شمس‌العماره، کاخ گلستان",
+        "film": "Kamalolmolk",
+        "year": 1984,
+        "route_order": 9,
+        "chapter": "Golestan Palace: Court & Spectacle",
+        "url": "location.html?id=loc_kamalolmolk_shamsol_emareh_golestan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4207,
+          35.6799
+        ]
+      },
+      "properties": {
+        "id": "loc_kamalolmolk_emarat_badgir",
+        "name": "Emarat-e Badgir (Windcatcher Mansion), Golestan Palace",
+        "name_fa": "عمارت بادگیر، کاخ گلستان",
+        "film": "Kamalolmolk",
+        "year": 1984,
+        "route_order": 10,
+        "chapter": "Golestan Palace: Court & Spectacle",
+        "url": "location.html?id=loc_kamalolmolk_emarat_badgir"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4205793,
+          35.6803413
+        ]
+      },
+      "properties": {
+        "id": "loc_nasereddin_shah_mirror_hall_golestan",
+        "name": "Mirror Hall, Golestan Palace",
+        "name_fa": "تالار آینه، کاخ گلستان",
+        "film": "Once Upon a Time, Cinema",
+        "year": 1992,
+        "route_order": 12,
+        "chapter": "Golestan Palace: Court & Spectacle",
+        "url": "location.html?id=loc_nasereddin_shah_mirror_hall_golestan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4199001,
+          35.6802537
+        ]
+      },
+      "properties": {
+        "id": "loc_nasereddin_shah_khalvat_karimkhani",
+        "name": "Khalvat-e Karimkhani, Golestan Palace",
+        "name_fa": "خلوت کریمخانی، کاخ گلستان",
+        "film": "Once Upon a Time, Cinema",
+        "year": 1992,
+        "route_order": 13,
+        "chapter": "Golestan Palace: Court & Spectacle",
+        "url": "location.html?id=loc_nasereddin_shah_khalvat_karimkhani"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.42185,
+          35.690988
+        ]
+      },
+      "properties": {
+        "id": "loc_daeejan_napoleon_ettehadieh_house",
+        "name": "Ettehadieh House / Amin-ol-Soltan House",
+        "name_fa": "خانه باغ اتحادیه / خانه امین‌السلطان",
+        "film": "My Uncle Napoleon",
+        "year": 1976,
+        "route_order": 5,
+        "chapter": "Lalehzar & Toopkhaneh",
+        "url": "location.html?id=loc_daeejan_napoleon_ettehadieh_house"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.395833,
+          35.700833
+        ]
+      },
+      "properties": {
+        "id": "loc_asabani_nistam_university_of_tehran_gate",
+        "name": "University of Tehran Main Entrance Gate",
+        "name_fa": "سردر اصلی دانشگاه تهران",
+        "film": "I'm Not Angry!",
+        "year": 2014,
+        "route_order": 1,
+        "chapter": "Revolution Avenue & Ferdowsi",
+        "url": "location.html?id=loc_asabani_nistam_university_of_tehran_gate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.395833,
+            35.700833
+          ],
+          [
+            51.419,
+            35.7019
+          ],
+          [
+            51.4285301,
+            35.7092036
+          ],
+          [
+            51.4224124,
+            35.6898368
+          ],
+          [
+            51.42185,
+            35.690988
+          ],
+          [
+            51.4206,
+            35.688
+          ],
+          [
+            51.4196485,
+            35.6882733
+          ],
+          [
+            51.4211,
+            35.6869
+          ],
+          [
+            51.42028,
+            35.67972
+          ],
+          [
+            51.4207,
+            35.6799
+          ],
+          [
+            51.4205793,
+            35.6803413
+          ],
+          [
+            51.4205793,
+            35.6803413
+          ],
+          [
+            51.4199001,
+            35.6802537
+          ],
+          [
+            51.4259,
+            35.8119
+          ],
+          [
+            51.5009,
+            35.8029
+          ]
+        ]
+      },
+      "properties": {
+        "name": "From Revolution Avenue to the Northern Hills",
+        "kind": "curated-order-line-not-turn-by-turn"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Tehran Cinema Atlas" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Tehran Cinema Atlas</name><desc>Curated LMML route; verify travel directions before visiting.</desc></metadata>
+  <wpt lat="35.700833" lon="51.395833"><name>University of Tehran Main Entrance Gate</name><desc>I&#x27;m Not Angry! (2014)</desc></wpt>
+  <wpt lat="35.7019" lon="51.419"><name>Ferdowsi Square, Tehran</name><desc>White Nights (2003)</desc></wpt>
+  <wpt lat="35.7092036" lon="51.4285301"><name>Cinema and Theater Faculty of Tehran Art University</name><desc>White Nights (2003)</desc></wpt>
+  <wpt lat="35.6898368" lon="51.4224124"><name>Grand Hotel Tehran</name><desc>Tehran Roozegare No (1999)</desc></wpt>
+  <wpt lat="35.690988" lon="51.42185"><name>Ettehadieh House / Amin-ol-Soltan House</name><desc>My Uncle Napoleon (1976)</desc></wpt>
+  <wpt lat="35.688" lon="51.4206"><name>Moshir od-Dowleh Mansion (Pirnia House)</name><desc>Chess of the Wind (1976)</desc></wpt>
+  <wpt lat="35.6882733" lon="51.4196485"><name>Ferdowsi Grand Hotel Tehran</name><desc>White Nights (2003)</desc></wpt>
+  <wpt lat="35.6869" lon="51.4211"><name>Toopkhaneh Square, Tehran</name><desc>Tehran Roozegare No (1999)</desc></wpt>
+  <wpt lat="35.67972" lon="51.42028"><name>Shams-ol-Emareh, Golestan Palace</name><desc>Kamalolmolk (1984)</desc></wpt>
+  <wpt lat="35.6799" lon="51.4207"><name>Emarat-e Badgir (Windcatcher Mansion), Golestan Palace</name><desc>Kamalolmolk (1984)</desc></wpt>
+  <wpt lat="35.6803413" lon="51.4205793"><name>Mirror Hall, Golestan Palace</name><desc>Kamalolmolk (1984)</desc></wpt>
+  <wpt lat="35.6803413" lon="51.4205793"><name>Mirror Hall, Golestan Palace</name><desc>Once Upon a Time, Cinema (1992)</desc></wpt>
+  <wpt lat="35.6802537" lon="51.4199001"><name>Khalvat-e Karimkhani, Golestan Palace</name><desc>Once Upon a Time, Cinema (1992)</desc></wpt>
+  <wpt lat="35.8119" lon="51.4259"><name>Cyrus Samrad Mansion / Iran Music Museum</name><desc>Banoo (1991)</desc></wpt>
+  <wpt lat="35.8029" lon="51.5009"><name>Police Station 164 Qaem</name><desc>Close-Up (1990)</desc></wpt>
+  <rte><name>Tehran Cinema Atlas one-day route</name>
+    <rtept lat="35.700833" lon="51.395833"><name>University of Tehran Main Entrance Gate</name></rtept>
+    <rtept lat="35.7019" lon="51.419"><name>Ferdowsi Square, Tehran</name></rtept>
+    <rtept lat="35.7092036" lon="51.4285301"><name>Cinema and Theater Faculty of Tehran Art University</name></rtept>
+    <rtept lat="35.6898368" lon="51.4224124"><name>Grand Hotel Tehran</name></rtept>
+    <rtept lat="35.690988" lon="51.42185"><name>Ettehadieh House / Amin-ol-Soltan House</name></rtept>
+    <rtept lat="35.688" lon="51.4206"><name>Moshir od-Dowleh Mansion (Pirnia House)</name></rtept>
+    <rtept lat="35.6882733" lon="51.4196485"><name>Ferdowsi Grand Hotel Tehran</name></rtept>
+    <rtept lat="35.6869" lon="51.4211"><name>Toopkhaneh Square, Tehran</name></rtept>
+    <rtept lat="35.67972" lon="51.42028"><name>Shams-ol-Emareh, Golestan Palace</name></rtept>
+    <rtept lat="35.6799" lon="51.4207"><name>Emarat-e Badgir (Windcatcher Mansion), Golestan Palace</name></rtept>
+    <rtept lat="35.6803413" lon="51.4205793"><name>Mirror Hall, Golestan Palace</name></rtept>
+    <rtept lat="35.6803413" lon="51.4205793"><name>Mirror Hall, Golestan Palace</name></rtept>
+    <rtept lat="35.6802537" lon="51.4199001"><name>Khalvat-e Karimkhani, Golestan Palace</name></rtept>
+    <rtept lat="35.8119" lon="51.4259"><name>Cyrus Samrad Mansion / Iran Music Museum</name></rtept>
+    <rtept lat="35.8029" lon="51.5009"><name>Police Station 164 Qaem</name></rtept>
+  </rte>
+</gpx>

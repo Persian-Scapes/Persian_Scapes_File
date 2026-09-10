@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="950" viewBox="0 0 1600 950">
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#120d0d"/><stop offset="0.55" stop-color="#3b1717"/><stop offset="1" stop-color="#c49868"/></linearGradient></defs>
+  <rect width="1600" height="950" fill="url(#bg)"/>
+  <path d="M0 760 C280 650 430 850 720 740 C1010 630 1190 690 1600 540 L1600 950 L0 950 Z" fill="#100b0b" opacity="0.55"/>
+  <rect x="110" y="120" width="470" height="700" rx="20" fill="#fff" opacity="0.08"/>
+  <rect x="180" y="205" width="330" height="460" rx="8" fill="#000" opacity="0.23"/>
+  <circle cx="345" cy="430" r="115" fill="none" stroke="#f2d6a2" stroke-width="18" opacity="0.75"/>
+  <circle cx="345" cy="430" r="55" fill="none" stroke="#f2d6a2" stroke-width="10" opacity="0.55"/>
+  <text x="690" y="390" font-family="Georgia, serif" font-size="86" fill="#fff6e8">Tehran Cinema Atlas</text>
+  <text x="696" y="465" font-family="Arial, sans-serif" font-size="34" fill="#f4ddc0">Iranian films through real locations</text>
+</svg>

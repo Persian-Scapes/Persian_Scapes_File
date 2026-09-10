@@ -1,0 +1,7 @@
+(function(){
+ const D=window.ATLAS_DATA,grid=document.querySelector('#filmGrid'),search=document.querySelector('#filmSearch'),decade=document.querySelector('#filmDecade');
+ const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+ [...new Set(D.films.map(x=>Math.floor(x.year/10)*10))].sort().forEach(x=>decade.insertAdjacentHTML('beforeend',`<option value="${x}">${x}s</option>`));
+ function render(){const q=search.value.trim().toLowerCase();const items=D.films.filter(x=>(!q||[x.title,x.titleFa,x.director].join(' ').toLowerCase().includes(q))&&(decade.value==='all'||Math.floor(x.year/10)*10===Number(decade.value)));grid.innerHTML=items.sort((a,b)=>a.year-b.year).map(x=>`<a class="film-card" style="--film-accent:${esc(x.theme.accent)}" href="film.html?id=${encodeURIComponent(x.id)}"><div class="film-theme-bar"></div><img src="${x.poster}" alt="Poster-style image for ${esc(x.title)}"><p class="theme-name">${esc(x.theme.name)}</p><h2>${esc(x.title)}</h2><p class="persian-card-title" lang="fa" dir="rtl">${esc(x.titleFa)}</p><p>${esc(x.description)}</p><div class="motif-row">${x.theme.motifs.slice(0,3).map(t=>`<span class="motif">${esc(t)}</span>`).join('')}</div><div class="card-meta"><span>${esc(x.director)}</span><span>${x.year} · ${x.locationIds.length} locations</span></div></a>`).join('');}
+ search.addEventListener('input',render);decade.addEventListener('change',render);render();
+})();
