@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" data-theme="poster">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Tehran Cinema Atlas — a live museum of Iranian movie locations.">
+  <title>Tehran Cinema Atlas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span>◉</span><b>TEHRAN<small>CINEMA ATLAS</small></b></a>
+    <nav><a href="#map">Map</a><a href="#stories">Stories</a><a href="#locations">Locations</a><a href="#films">Films</a><a href="#documentation">Documentation</a></nav>
+    <button class="theme-key" id="themeKey"><span>✦</span><b>Change exhibition</b></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal"><p class="eyebrow">15 LOCATIONS · 9 FILMS · ONE LIVING CITY</p><h1>TEHRAN<br><em>CINEMA ATLAS</em></h1><p class="fa" dir="rtl">اطلس سینمای تهران؛ شهر را از قاب فیلم دوباره ببینید</p><p>Walk into the real streets, houses and palaces of Iranian cinema. Compare remembered frames with the city today.</p><a class="button" href="#locations">ENTER THE ATLAS →</a></div>
+      <figure class="theme-feature reveal"><img id="featureImage" src="assets/theme/poster-panel.png" alt="Theme exhibition artwork"><figcaption><b id="featureTitle">Iranian Poster</b><span id="featureNote">An original visual interpretation created for this exhibition.</span></figcaption></figure>
+    </section>
+
+    <section class="theme-gallery reveal" id="themes" aria-labelledby="galleryTitle"><header><p class="eyebrow">SIX VISUAL EXHIBITIONS</p><h2 id="galleryTitle">The atlas changes its architecture</h2></header><div class="theme-tiles" id="themeTiles"></div><nav class="section-nav"><a href="#home">← Cover</a><a href="#map">Map →</a></nav></section>
+
+    <section class="atlas-map reveal" id="map"><header><div><p class="eyebrow">THE DISTRIBUTED MUSEUM</p><h2>Tehran on the map</h2></div><p>Every numbered point opens a location record. The map is coordinate-based and works offline; directions open the supplied map link when internet access is available.</p></header><div class="map-stage" id="mapStage"><div class="map-lines"></div><span class="north">N ↑</span></div><nav class="section-nav"><a href="#themes">← Themes</a><a href="#stories">Stories →</a></nav></section>
+
+    <section class="stories reveal" id="stories"><header><p class="eyebrow">THREE WAYS THROUGH TEHRAN</p><h2>Choose what the city reveals</h2><p id="storyIntro" class="section-intro">A plausible single-day journey from the northern garden mansions to the historic and civic centre.</p></header><div class="story-buttons"><button class="active" data-story="route"><span>01</span><b>One-day route</b><small>North to central Tehran</small></button><button data-story="timeline"><span>02</span><b>Screen time</b><small>Required historical timeline</small></button><button data-story="lens"><span>03</span><b>City lenses</b><small>Architecture and memory</small></button></div><div class="chapter-transition"><b id="chapterTitle">Chapter 1 — From private memory to public city</b><span id="chapterText">Begin among northern garden houses, then descend toward Tehran’s cultural and political centre.</span></div><div class="route-strip" id="routeStrip"></div><nav class="section-nav"><a href="#map">← Map</a><a href="#locations">Locations →</a></nav></section>
+
+    <section class="locations reveal" id="locations"><header class="section-head"><div><p class="eyebrow">THE COLLECTION</p><h2>Locations</h2></div><label class="search">⌕ <input id="search" placeholder="Search a location or film"></label></header><div class="location-grid" id="locationGrid"></div><nav class="section-nav"><a href="#stories">← Stories</a><a href="#films">Films →</a></nav></section>
+
+    <section class="films reveal" id="films"><header><p class="eyebrow">NINE SCREEN WORLDS</p><h2>Films</h2></header><div class="film-row" id="filmRow"></div><nav class="section-nav"><a href="#locations">← Locations</a><a href="#about">About →</a></nav></section>
+
+    <section class="about reveal" id="about"><p class="eyebrow">A LIVE MUSEUM WITHOUT WALLS</p><div><h2>The city is the collection.</h2><p>Tehran Cinema Atlas connects film frames, current photographs, visit information and geographical evidence. It is designed as both a planning tool at home and a companion during the visit. Your researched scene images can replace any image while keeping the same filenames.</p></div><div class="facts"><span><b>15</b> real locations</span><span><b>9</b> films and series</span><span><b>6</b> complete visual themes</span></div><nav class="section-nav"><a href="#films">← Films</a><a href="#documentation">Documentation →</a></nav></section>
+
+    <section class="documentation reveal" id="documentation"><header><p class="eyebrow">DELIBERATE DESIGN</p><h2>Documentation</h2><p class="section-intro">Every layout decision is tied to a visual tradition and a reading purpose. The themes alter order, density, hierarchy, navigation and image framing while keeping the content complete.</p></header><div class="design-grid"><article><b>01</b><h3>Poster</h3><p>Asymmetrical montage and oversized display type foreground cinematic emotion and fast visual recognition.</p></article><article><b>02</b><h3>Carpet</h3><p>Centred symmetry, woven borders and paired items turn the collection into a medallion-like field.</p></article><article><b>03</b><h3>Architecture</h3><p>A vertical index and modular grid borrow from façades, plans and the contrast between Qajar and modern Tehran.</p></article><article><b>04</b><h3>Negative</h3><p>A bottom contact-sheet dock and horizontal archive privilege comparison between film evidence and field photography.</p></article><article><b>05</b><h3>Press</h3><p>Dense columns, masthead hierarchy and monochrome images support scholarly scanning and metadata reading.</p></article><article><b>06</b><h3>Theatre</h3><p>A proscenium hierarchy, central staging and ornamental frames present each location as a performed scene.</p></article></div><div class="model"><h3>Metadata model — RSTU</h3><p><b>Rich:</b> editorial, geographical, evidential and visit information. <b>Systematic:</b> shared fields across every location. <b>Tailored:</b> place-specific facts without forcing unrelated categories. <b>Uniform:</b> the same model enables search, maps and narratives.</p></div><nav class="section-nav"><a href="#about">← About</a><a href="#disclaimer">Disclaimer →</a></nav></section>
+
+    <section class="disclaimer reveal" id="disclaimer"><p class="eyebrow">ACADEMIC PURPOSE AND RIGHTS</p><div><h2>Disclaimer</h2><p>This website explores typographic and layout styles for specialized tourist visits as an end-of-course project for the “Information Modeling and Web Technologies” course of the Master’s Degree in Digital Humanities and Digital Knowledge at the University of Bologna, under the supervision of Prof. Fabio Vitali.</p><p>The documents and images are presented for academic research, identification and comparison. Their publication is not intended as an alternative to or replacement for their original sources. Copyright and related rights remain with their original owners. The original theme artwork and typographic/layout choices were created for this 2026 project.</p></div><nav class="section-nav"><a href="#documentation">← Documentation</a><a href="#home">Cover ↑</a></nav></section>
+  </main>
+
+  <footer><b>Tehran Cinema Atlas</b><span>اطلس سینمای تهران</span><small>Open-index edition · No installation required</small></footer>
+
+  <dialog class="theme-dialog" id="themeDialog"><button class="close" aria-label="Close">×</button><p class="eyebrow">CHOOSE THE EXHIBITION</p><h2>Six ways to remember Tehran</h2><div id="themeChoices"></div></dialog>
+  <dialog class="detail-dialog" id="detailDialog"><button class="close" aria-label="Close">×</button><div id="detailContent"></div></dialog>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
