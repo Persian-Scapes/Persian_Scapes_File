@@ -2,8 +2,8 @@ window.SITE_DATA = {
   "project": {
     "name": "Tehran Cinema Atlas",
     "subtitle": "A digital museum of Iranian films through real locations in Tehran",
-    "location_count": 15,
-    "film_count": 9,
+    "location_count": 16,
+    "film_count": 10,
     "city": "Tehran",
     "theme": "Iranian cinema and urban memory"
   },
@@ -686,6 +686,48 @@ window.SITE_DATA = {
       "sources": [
         "https://www.google.com/maps/search/?api=1&query=University+of+Tehran+Main+Entrance+Gate"
       ]
+    },
+    {
+      "id": "loc_leila_velenjak_13th_street",
+      "location_name_fa": "ولنجک، خیابان سیزدهم",
+      "location_name_en": "Velenjak, 13th Street",
+      "related_film": "film_leila_1997",
+      "place_type": "Residential street / garden-house setting",
+      "current_address_or_area": "Velenjak, 13th Street, northern Tehran, Iran",
+      "neighborhood_or_area": "Velenjak / District 1",
+      "city": "Tehran",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=35.807389623350694,51.40521132258524",
+      "coordinates": {
+        "latitude": 35.807389623350694,
+        "longitude": 51.40521132258524
+      },
+      "film_still_image": "images/locations/leila/film-still-velenjak.jpg",
+      "current_location_image": "images/locations/leila/velenjak-neighborhood-current.jpg",
+      "scene_description": "The Velenjak setting in Leila is presented through enclosed brick passages, stairs and a garden-house atmosphere. These domestic thresholds reinforce the film's attention to private life, emotional pressure and the spaces between family expectations and personal choice.",
+      "facts_trivia": [
+        "The supplied location is on 13th Street in Velenjak, northern Tehran.",
+        "Velenjak is a hillside neighborhood in District 1, associated with residential streets, gardens and views toward the Alborz foothills.",
+        "The selected frame was chosen because its brick passage and domestic architecture provide the clearest spatial evidence among the supplied Leila images.",
+        "The present-day image shows the wider Velenjak neighborhood; an exact façade match still requires a field visit."
+      ],
+      "evidence": [
+        "The location and coordinates were supplied directly by the project team.",
+        "The uploaded Leila frame shows a residential brick passage consistent with the documented garden-house setting.",
+        "Exact camera direction has not yet been recorded and remains a fieldwork task."
+      ],
+      "match_level": "Team-identified street; exact façade verification pending",
+      "identification_reason": "The project team identified Velenjak, 13th Street and supplied the exact coordinates.",
+      "location_reality": "Real exterior location; neighborhood view shown, exact façade and shot orientation pending verification",
+      "visitor_access": "Public street access; respect residents and do not enter private property",
+      "geographical_context": {
+        "city": "Tehran",
+        "district": "District 1",
+        "area": "Velenjak",
+        "urban_context": "A northern Tehran residential neighborhood on the lower slopes of the Alborz, characterized by steep streets, apartment buildings, older garden houses and cooler mountain air.",
+        "spatial_feeling": "The enclosed brick route and domestic thresholds create an intimate, private atmosphere appropriate to the film's emotional world.",
+        "visitor_note": "Use the supplied coordinates for the street point. Photograph only from public space and confirm the exact façade and camera angle during fieldwork."
+      },
+      "sources": []
     }
   ],
   "films": [
@@ -1171,6 +1213,46 @@ window.SITE_DATA = {
           "pressure"
         ],
         "dialogue_audio": "assets/audio/im-not-angry-dialogue.mp3"
+      }
+    },
+    {
+      "id": "film_leila_1997",
+      "aliases": [
+        "film_leila_1997"
+      ],
+      "title_fa": "لیلا",
+      "title_en": "Leila",
+      "alternate_titles": [
+        "Leila"
+      ],
+      "director": "Dariush Mehrjui",
+      "year": 1997,
+      "short_description": "An intimate drama about Leila and Reza, whose marriage is placed under intense family pressure. Domestic interiors, passages and garden spaces turn private architecture into a map of emotional constraint.",
+      "poster_image": "images/films/leila/poster.jpg",
+      "related_locations": [
+        "loc_leila_velenjak_13th_street"
+      ],
+      "facts_trivia": [
+        "The film was directed by Dariush Mehrjui.",
+        "Its domestic spaces are central to the story's emotional tension.",
+        "The Velenjak location connects the film's private drama to the residential geography of northern Tehran.",
+        "The exact camera orientation remains to be documented during a field visit."
+      ],
+      "sources": [],
+      "page": "film-leila.html",
+      "theme": {
+        "name": "Domestic Thresholds",
+        "name_fa": "آستانه‌های خانه",
+        "mood": "Intimate, restrained and autumnal, with brick passages, garden light and enclosed domestic spaces.",
+        "palette": ["#1d1814", "#5b4738", "#9a704f", "#e5d3b8"],
+        "primary": "#1d1814",
+        "secondary": "#5b4738",
+        "accent": "#9a704f",
+        "soft": "#e5d3b8",
+        "ink": "#fff2df",
+        "pattern": "linear-gradient(135deg, rgba(91,71,56,.92), rgba(29,24,20,.98))",
+        "motifs": ["brick passage", "garden", "threshold", "private life"],
+        "dialogue_audio": ""
       }
     }
   ],
